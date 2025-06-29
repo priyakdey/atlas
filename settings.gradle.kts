@@ -6,3 +6,5 @@
  */
 
 rootProject.name = "atlas"
+include("konfig")
+include("registry")
