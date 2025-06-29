@@ -9,9 +9,5 @@ import java.util.List;
  */
 public interface ConfigRepository {
 
-    default void load() {
-        // Default implementation is no-op
-    }
-
     List<ConfigSource> getSources(String appName, String env);
 }
